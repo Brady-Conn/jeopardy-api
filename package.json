@@ -1,0 +1,27 @@
+{
+  "name": "jeopardy-api",
+  "version": "1.0.0",
+  "description": "A api with data on over 200k jeopardy questions and answers using mongo and express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbc5099/jeopardy-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbc5099/jeopardy-api/issues"
+  },
+  "homepage": "https://github.com/jbc5099/jeopardy-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.7.3",
+    "nodemon": "^1.19.3"
+  }
+}
