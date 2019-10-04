@@ -10,10 +10,12 @@ db.once('open', () => {
 
 const questionSchema = new mongoose.Schema({
   category: String,
-  date: Date,
+  air_date: Date,
   question: String,
   value: String,
   answer: String,
+  round: String,
+  show_number: String
 });
 
 const Question = mongoose.model('Question', questionSchema)
