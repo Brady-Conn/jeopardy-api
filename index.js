@@ -7,8 +7,8 @@ app.listen(3000, () => console.log('listening on port 3000'));
 
 app.get('/questions', (req, res) => {
   const pageOptions = {
-    page: req.query.page || 0,
-    limit: req.query.limit || 10
+    page: parseInt(req.query.page) || 0,
+    limit: parseInt(req.query.limit) || 10
   }
 
 Question.find()
